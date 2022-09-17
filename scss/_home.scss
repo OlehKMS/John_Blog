@@ -1,5 +1,6 @@
 header {
    height: 48px;
+
    ul {
       display: flex;
       justify-content: end;
@@ -9,11 +10,12 @@ header {
       li {
          font-weight: 500;
          padding-top: 28px;
-         
-         a{
+
+         a {
             color: rgba(0, 0, 0, 1);
             transition: .5s;
-            &:hover{
+
+            &:hover {
                transition: .5s;
                color: $primary_color;
             }
@@ -21,6 +23,26 @@ header {
       }
    }
 }
-footer{
+
+footer {
    height: 266px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.footer_block {
+   display: flex;
+   justify-content: center;
+   gap: 36px;
+   img {
+      cursor: pointer;
+   }
+}
+
+
+.text_footer {
+   color: $dark_color;
+   font-size: 14px;
+   text-align: center;
+   margin-top: 26px;
 }
