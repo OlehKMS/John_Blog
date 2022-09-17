@@ -1,0 +1,22 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+      }
+body{
+   background: #E5E5E5;
+   font-family: 'Heebo';
+   font-weight: 400;
+   max-width: 1152px;
+}
+
+// colors
+$primary_color:#FF6464;
+$secondry_color:#00A8CC;
+$dark_color:#21243D;
+$light_color:#8695A4;
+
+// @import
+@import '_home.scss'
