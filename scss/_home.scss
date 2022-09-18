@@ -26,15 +26,17 @@ header {
 }
 
 footer {
-   height: 266px;
    width: 100%;
    margin: 0 auto;
+   height: 182px;
 }
 
-.footer_block {
+.footer_social {
    display: flex;
    justify-content: center;
    gap: 36px;
+   align-items: center;
+   margin-top: 80px;
 
    img {
       cursor: pointer;
@@ -82,10 +84,17 @@ footer {
    color: #21243D;
 }
 
-.photo_john {
-   flex-basis: 243px;
-   height: 243px;
-}
+
+   
+
+   .photo_john {
+      border: 1px solid #000000;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-basis: 243px;
+      height: 243px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   }
 
 .btn_download {
    background-color: $primary_color;
@@ -162,30 +171,37 @@ footer {
       overflow: auto;
    }
 }
-.featured_works{
+
+.featured_works {
    display: flex;
    flex-direction: column;
    margin-top: 42px;
 }
-.works{
+
+.works {
    display: flex;
    border-bottom: 1px solid #E0E0E0;
-      img{
+   margin-bottom: 32px;
+   align-items: center;
+
+   img {
       border-radius: 6px;
       object-fit: cover;
    }
 }
-.headline{
+
+.headline {
    font-size: 30px;
    font-weight: 700;
    line-height: 44px;
 }
-.info{
-   margin-top: 32px;
-   margin-bottom:36px ;
-   
+
+.info {
+   margin-top: 26px;
+
 }
-.work_year{
+
+.work_year {
    display: inline-block;
    color: rgba(255, 255, 255, 1);
    font-weight: 900;
@@ -193,9 +209,15 @@ footer {
    background-color: #142850;
    font-size: 18px;
    padding: 0 6px;
-      }
-   .work_type{
-      font-size: 20px;
-      color: rgba(134, 149, 164, 1);
-      padding-left: 26px;
-   }
+}
+
+.work_type {
+   font-size: 20px;
+   color: rgba(134, 149, 164, 1);
+   padding-left: 26px;
+}
+
+.works_info {
+   margin-left: 18px;
+   padding-bottom: 32px;
+}
