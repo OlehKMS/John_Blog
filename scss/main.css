@@ -4,6 +4,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 
 body {
@@ -11,6 +12,11 @@ body {
   font-family: "Heebo";
   font-weight: 400;
   max-width: 1152px;
+  margin: 0 auto;
+}
+
+.main {
+  background-color: white;
 }
 
 header {
@@ -27,12 +33,13 @@ header ul li {
   padding-top: 28px;
 }
 header ul li a {
-  color: rgb(0, 0, 0);
   transition: 0.5s;
 }
-header ul li a:hover {
-  transition: 0.5s;
-  color: #FF6464;
+@media (min-width: 380px) {
+  header ul li a:hover {
+    transition: 0.5s;
+    color: #FF6464;
+  }
 }
 
 footer {
@@ -55,4 +62,153 @@ footer {
   font-size: 14px;
   text-align: center;
   margin-top: 26px;
+}
+
+.about_john {
+  display: flex;
+  margin: 152px 0 78px 0;
+  justify-content: space-between;
+}
+
+.text_john {
+  flex-direction: column;
+  width: 60%;
+}
+.text_john h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  width: 85%;
+}
+
+.text_john_text {
+  margin: 40px 0;
+}
+
+.content {
+  max-width: 856px;
+  margin: 0 auto;
+}
+
+.text_content {
+  line-height: 23.5px;
+  font-size: 16px;
+  color: #21243D;
+}
+
+.photo_john {
+  flex-basis: 243px;
+  height: 243px;
+}
+
+.btn_download {
+  background-color: #FF6464;
+  height: 47px;
+  width: 207px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn_download a {
+  color: #FFFFFF;
+}
+
+.recent_posts {
+  width: 100%;
+  background-color: #EDF7FA;
+  margin: 0 auto;
+  padding: 30px 0 30px 0;
+  margin-bottom: 30px;
+}
+
+.post_content {
+  display: flex;
+  max-width: 860px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.subtitle .vie_all {
+  color: #00A8CC;
+}
+
+.posts_header {
+  font-size: 22px;
+}
+
+.post {
+  width: 418px;
+  height: 295px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 22px 42px 32px 16px;
+  border-radius: 4px;
+}
+.post h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #21243D;
+  max-width: 384px;
+  line-height: 38.19px;
+}
+.post .inf {
+  font-size: 18px;
+  margin: 35px 0 28px 0;
+}
+.post .inf span {
+  margin-inline: 26px;
+}
+.post p {
+  height: 96px;
+  overflow: auto;
+}
+
+.featured_works {
+  display: flex;
+  flex-direction: column;
+  margin-top: 42px;
+}
+
+.works {
+  display: flex;
+  border-bottom: 1px solid #E0E0E0;
+}
+.works img {
+  border-radius: 6px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.headline {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.info {
+  margin-top: 32px;
+  margin-bottom: 36px;
+}
+
+.work_year {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  border-radius: 16px;
+  background-color: #142850;
+  font-size: 18px;
+  padding: 0 6px;
+}
+
+.work_type {
+  font-size: 20px;
+  color: rgb(134, 149, 164);
+  padding-left: 26px;
 }/*# sourceMappingURL=main.css.map */

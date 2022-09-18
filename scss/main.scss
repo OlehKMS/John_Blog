@@ -4,13 +4,18 @@
    box-sizing: border-box;
    list-style: none;
    text-decoration: none;
+   color: rgba(0, 0, 0, 1);
       }
 body{
    background: #E5E5E5;
    font-family: 'Heebo';
    font-weight: 400;
    max-width: 1152px;
-}
+   margin: 0 auto;
+   }
+   .main{
+      background-color: white;
+   }
 
 // colors
 $primary_color:#FF6464;

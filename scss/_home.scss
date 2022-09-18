@@ -12,12 +12,13 @@ header {
          padding-top: 28px;
 
          a {
-            color: rgba(0, 0, 0, 1);
             transition: .5s;
 
-            &:hover {
-               transition: .5s;
-               color: $primary_color;
+            @media (min-width: 380px) {
+               &:hover {
+                  transition: .5s;
+                  color: $primary_color;
+               }
             }
          }
       }
@@ -34,6 +35,7 @@ footer {
    display: flex;
    justify-content: center;
    gap: 36px;
+
    img {
       cursor: pointer;
    }
@@ -46,3 +48,154 @@ footer {
    text-align: center;
    margin-top: 26px;
 }
+
+.about_john {
+   display: flex;
+   margin: 152px 0 78px 0;
+   justify-content: space-between;
+}
+
+.text_john {
+   flex-direction: column;
+   width: 60%;
+
+   h1 {
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 60px;
+      width: 85%;
+   }
+}
+
+.text_john_text {
+   margin: 40px 0;
+}
+
+.content {
+   max-width: 856px;
+   margin: 0 auto;
+}
+
+.text_content {
+   line-height: 23.5px;
+   font-size: 16px;
+   color: #21243D;
+}
+
+.photo_john {
+   flex-basis: 243px;
+   height: 243px;
+}
+
+.btn_download {
+   background-color: $primary_color;
+   height: 47px;
+   width: 207px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 2px;
+   text-align: center;
+   align-items: center;
+   cursor: pointer;
+
+   a {
+      color: #FFFFFF;
+   }
+}
+
+.recent_posts {
+   width: 100%;
+   background-color: #EDF7FA;
+   margin: 0 auto;
+   padding: 30px 0 30px 0;
+   margin-bottom: 30px;
+}
+
+.post_content {
+   display: flex;
+   max-width: 860px;
+   margin: 0 auto;
+   gap: 20px;
+}
+
+.subtitle {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 30px;
+
+   .vie_all {
+      color: $secondry_color;
+   }
+
+}
+
+.posts_header {
+   font-size: 22px;
+}
+
+.post {
+   width: 418px;
+   height: 295px;
+   margin: 0 auto;
+   background-color: #FFFFFF;
+   padding: 22px 42px 32px 16px;
+   border-radius: 4px;
+
+   h3 {
+      font-weight: 700;
+      font-size: 26px;
+      color: #21243D;
+      max-width: 384px;
+      line-height: 38.19px;
+   }
+
+   .inf {
+      font-size: 18px;
+      margin: 35px 0 28px 0;
+
+      span {
+         margin-inline: 26px;
+      }
+   }
+
+   p {
+      height: 96px;
+      overflow: auto;
+   }
+}
+.featured_works{
+   display: flex;
+   flex-direction: column;
+   margin-top: 42px;
+}
+.works{
+   display: flex;
+   border-bottom: 1px solid #E0E0E0;
+      img{
+      border-radius: 6px;
+      object-fit: cover;
+   }
+}
+.headline{
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 44px;
+}
+.info{
+   margin-top: 32px;
+   margin-bottom:36px ;
+   
+}
+.work_year{
+   display: inline-block;
+   color: rgba(255, 255, 255, 1);
+   font-weight: 900;
+   border-radius: 16px;
+   background-color: #142850;
+   font-size: 18px;
+   padding: 0 6px;
+      }
+   .work_type{
+      font-size: 20px;
+      color: rgba(134, 149, 164, 1);
+      padding-left: 26px;
+   }
