@@ -37,8 +37,7 @@ footer {
    gap: 36px;
    align-items: center;
    margin-top: 80px;
-
-   img {
+      img {
       cursor: pointer;
    }
 }
@@ -191,6 +190,7 @@ footer {
    img {
       border-radius: 6px;
       object-fit: cover;
+      cursor: pointer;
    }
 }
 
@@ -198,11 +198,11 @@ footer {
    font-size: 30px;
    font-weight: 700;
    line-height: 44px;
+   margin-top: 12px;
 }
 
 .info {
-   margin-top: 26px;
-
+   margin: 12px 0 17px 0;
 }
 
 .work_year {
@@ -222,6 +222,5 @@ footer {
 }
 
 .works_info {
-   margin-left: 18px;
-   padding-bottom: 32px;
+   margin: 0 0 32px 18px;
 }
