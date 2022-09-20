@@ -118,6 +118,9 @@ footer {
   align-items: center;
   cursor: pointer;
 }
+.btn_download:hover {
+  background-color: #f19c9c;
+}
 .btn_download a {
   color: #FFFFFF;
 }
@@ -224,4 +227,38 @@ footer {
 .works_info {
   margin-left: 18px;
   padding-bottom: 32px;
+}
+
+.header_blog {
+  color: #FF6464;
+}
+
+.mb30px {
+  margin-bottom: 70px;
+}
+
+.blog_content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.blog_caption {
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.blog_content_title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.marg_inl {
+  margin-inline: 26px;
+}
+
+.blog_cont_time {
+  margin-top: 16px;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=main.css.map */

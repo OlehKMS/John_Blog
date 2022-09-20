@@ -1,3 +1,6 @@
+
+
+// Defoult
 *{
    margin: 0;
    padding: 0;
@@ -23,6 +26,6 @@ $secondry_color:#00A8CC;
 $dark_color:#21243D;
 $light_color:#8695A4;
 
-// @import
+
 @import '_home.scss';
-@import '_blog.scss'
+@import '_blog.scss';
